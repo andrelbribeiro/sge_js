@@ -11,8 +11,9 @@ const Pedido = sequelize.define('Pedido', {
   data_compra: {
     type: DataTypes.DATE,
     allowNull: false,
-    defaultValue: Sequelize.NOW, // Define a data atual como padrão
+    defaultValue: Sequelize.NOW,
   },
+
 });
 
 Pedido.belongsTo(Cliente, { foreignKey: 'cliente_id' });

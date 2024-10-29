@@ -7,4 +7,6 @@ on c.cliente_id = p.cliente_id
 inner join detalhepedidos dt
 on p.pedido_id = dt.dt_pedido_id
 inner join produtos prod
-on prod.produto_id = dt.dt_produto_id
+on prod.produto_id = dt.dt_produto_id;
+
+select * from pedidos;

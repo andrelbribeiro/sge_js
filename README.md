@@ -2,6 +2,12 @@
 # npm install express sequelize mysql2 jsonwebtoken bcryptjs body-parser
 # npm install nodemon --save-dev
 
+# package.json
+#   "scripts": {
+#    "start": "node server.js",
+#    "dev": "nodemon server.js"
+#  }
+
 # Usuario (usuario_id, usuario_login, usuario_senha)
 # Cliente (cliente_id, cliente_nome, cliente_email)
 # Pedido (pedido_id, cliente_id, data_compra)
@@ -12,13 +18,13 @@
 # git add .
 # git commit -m "Primeiro commit"
 # git remote add origin https://github.com/andrelbribeiro/sge_js.git
-# git push -u origin master
+# git push -u origin master ou main
 
 
 # git status
 # git add .
 # ou
 # git add nome_arquivo.py
-# git commit -m "Primeiro commit"
-# git push origin master
+# git commit -m "Segundo commit"
+# git push origin master ou main
 
