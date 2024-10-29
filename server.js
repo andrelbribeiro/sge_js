@@ -10,8 +10,8 @@ app.use('/api', routes);
 sequelize.sync()
   .then(() => {
     console.log('Conectado ao banco de dados');
-    app.listen(3000, () => {
-      console.log('Servidor rodando na porta 3000');
+    app.listen(process.env.PORT || 3000, () => {
+      console.log(`Servidor rodando na porta ${process.env.PORT || 3000}`);
     });
   })
   .catch(err => {
